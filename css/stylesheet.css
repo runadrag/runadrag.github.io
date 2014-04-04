@@ -1,0 +1,48 @@
+
+
+#name {
+	text-align: center;
+	font-family: Verdana, sans-serif;
+	color: #467284;
+	padding-bottom:10px;
+}
+
+#menu li a {
+	background:#FF8C00;
+  color:#FFF;  
+	border-color:#FFF;
+	border-bottom: 0px;    
+}
+
+#menu li a:hover {
+		background:#EE6A00;
+}
+
+#menu li.active a, #menu li.active a:hover {
+	font-weight: bold;
+	color: black;
+	background:#FFE4C4;
+}
+
+#photo {
+	margin: 10px 0px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+#mainContent {
+	background:#FFE4C4;
+}
+
+
+	
+#info {
+	border: 1px solid orange;
+	background:#FFF;
+}
+
+.page {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
