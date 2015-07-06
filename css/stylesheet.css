@@ -9,9 +9,9 @@
 
 #menu li a {
 	background:#FF8C00;
-  color:#FFF;  
+  color:#FFF;
 	border-color:#FFF;
-	border-bottom: 0px;    
+	border-bottom: 0px;
 }
 
 #menu li a:hover {
@@ -24,24 +24,58 @@
 	background:#FFE4C4;
 }
 
+a{
+color: #467284;
+}
+
 #photo {
-	margin: 10px 0px;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
+	margin: 0px 0px;
+	width: 80%;
+	/*-webkit-border-radius: 5px;*/
+	/*-moz-border-radius: 5px;*/
+	/*border-radius: 5px;*/
+}
+
+photo {
+	/*display: block;
+	margin-left: auto;
+	margin-right: auto;*/
+	display: table-cell;
+	vertical-align: middle;
+	horisontal-align: middle;
 }
 
 #mainContent {
 	background:#FFE4C4;
 }
 
-
-	
-#info {
-	border: 1px solid orange;
-	background:#FFF;
+span.date{
+	font-style: italic;
 }
 
+#info {
+	/*border: 1px solid orange;*/
+	/*background:orange;*/
+	/*background:#FFF;*/
+	background:#FFE4C4;
+}
+
+#vis {
+	border: 1px solid orange;
+	/*background:#FFE4C4;*/
+	background:#FFF;
+	/*-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;*/
+	margin-top: 15px;
+	margin-right: 0px;
+	margin-bottom: 15px;
+	padding-left: 37px;
+}
+#page {
+	border: 1px solid #FFF;
+	background:#FFF;
+}
 .page {
 	padding-top: 10px;
 	padding-bottom: 10px;
